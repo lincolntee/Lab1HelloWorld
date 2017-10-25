@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void resetMessage(View view){
         editTextName.setText("");
+        editTextAge.setText("");
+        textViewMessage.setText("Hello World");
     }
 
 
